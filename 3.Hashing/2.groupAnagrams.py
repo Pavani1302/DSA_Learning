@@ -1,6 +1,6 @@
 from collections import defaultdict
 def anagram(strs):
-    strs_dict = defaultdict(list) # creatting default list
+    strs_dict = defaultdict(list) 
     result = []
     for s in strs:
         sorted_s = tuple(sorted(s))
